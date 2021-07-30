@@ -1,0 +1,32 @@
+package com.junit3.Lab1Test;
+
+import com.junit3.Lab1.Arthmatic2;
+
+import junit.framework.TestCase;
+
+public class Arthmatic2Test extends TestCase {
+
+	Arthmatic2 a2=null;
+	protected void setUp() throws Exception {
+		System.out.println("setUp()");
+		
+		super.setUp();
+	}
+
+	protected void tearDown() throws Exception {
+		super.tearDown();
+	}
+
+	public void testMulIntInt() {
+		fail("Not yet implemented");
+	}
+
+	public void testMulIntIntInt() {
+		fail("Not yet implemented");
+	}
+
+	public void testDiv() {
+		fail("Not yet implemented");
+	}
+
+}

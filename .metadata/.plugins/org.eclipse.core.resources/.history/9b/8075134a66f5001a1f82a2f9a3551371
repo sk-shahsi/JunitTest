@@ -1,0 +1,35 @@
+package com.junit3.Lab1Test;
+
+import com.junit3.Lab1.Arthmatic1;
+
+import junit.framework.TestCase;
+
+public class Arthmatic1Test extends TestCase {
+	Arthmatic1 a1=null;//Resource Deceleration
+
+	protected void setUp() throws Exception {
+		System.out.println("setUP()");
+		super.setUp();
+
+		a1=new Arthmatic1();//Resource initialization
+		super.setUp();
+	}
+
+	protected void tearDown() throws Exception {
+		a1=null;//Resource Cleanup
+		super.tearDown();
+	}
+
+	public void testSum2() {
+		System.out.println("testSum2()");
+	}
+
+	public void testSum3() {
+		System.out.println("testSum3()");
+	}
+
+	public void testSub() {
+		System.out.println("testSub()");
+	}
+
+}
